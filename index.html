@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    /* grup animasi */
+    
+    @keyframes animasi {
+      from{
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+      @keyframes animasi2 {
+        from{
+          opacity: 0;
+        }
+       to{
+         opacity: 1;
+       } 
+      }
+      @keyframes animasi3 {
+        from{
+          scale(0)
+        }
+        to{
+          scale: 1.1;
+        }
+      }
+      /* animasi selesai */
+      
+      /* navigasi boss navigasi jaman majapahit wajar karena admin masih pemula */
+      
+    .nav {
+      background-color: #9b9b9b;
+      padding: 10px;
+      animation-name: animasi;
+      animation-duration: 0.8s;
+      z-index: 100;
+      top: 0;
+      gap: 15px;
+      position: sticky;
+    }
+    .navlink a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      margin: 0 auto;
+/* navigasi selesai */
+
+
+/* kontak boss */
+    }
+    .contact {
+      color:  #3B82F6;
+      background-color: #c2bfbf;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+/* home boss */
+.home {
+  background-color: #cecece;
+  padding: 50vh;
+}
+
+.home {
+  min-height: 50vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+    .halamanhome {
+      color: white;
+    }
+    .halamanhome span {
+      color: blue;
+    }
+    .halamanhome p {
+      font-weight: 600;
+      color: black;
+      font-family: Sans-Serif,Arial;
+    }
+    /* home selesai */
+    
+    /* belanja anjing */
+    .belanja {
+  background-color: white;
+  padding: 100vh;
+}
+
+.belanja {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #9CA3AF;
+  border: 1px 2px 1px rgb(255,255,255);
+}
+.pembungkus-luar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+/* belanja selesai */
+
+/* item yang akan dijual anjing,sorrylagi bad mood */
+.items {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 12px;  
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nama {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 16px;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.harga {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  color: #10b981;
+  font-size: 14px;
+  background-color: #ecfdf5;
+  padding: 6px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.items1 {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 12px;  
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nama1 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 16px;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.harga1 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  color: #10b981;
+  font-size: 14px;
+  background-color: #ecfdf5;
+  padding: 6px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+/* selesai */
+
+/* kontak ke 2 anjing mmk */
+.contact2 {
+  background-color: #f5f5f5;
+  padding: 5vh;
+  display: flex;
+  max-height: 5vh;
+}
+.image2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation-name: animasi3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+.image2 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.images2 a:visited {
+  color: black;
+}
+.comingsoon {
+  background-color: #fd8e00;
+  text-align-last: center;
+  border-radius: 10px;
+}
+.comingsoon p {
+  font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+  <div class="nav">
+      <div class="navlink">
+    <a href="#home">Home</a>
+    <a href="#belanja">Mulai-belanja</a>
+  </div>
+  </div>
+  <section id="home" class="home">
+    <div class="halamanhome">
+  <h2>Selamat datang di <span>so'eq</span> store</h2>
+  <p>kami menyediakan berbagai hal barang,seperti barang elektronik, perabotan, memasak, dll.
+  <br> 
+  <br>
+  ______________________________________________
+  soeq store dibuat oleh syamsul,bukan hp samsung ya, syamsul membuat soeq store karena terinspirasi oleh shopee
+  ______________________________________________</p>
+  
+  <h3>MINAT MEMBELI CONTACT:👇</h3>
+  <div class="contact">
+      <h3>📞 ADMIN UTAMA:081234567890</h3>
+      <h3>📞 ADMIN 2:080987654321</h3>
+  </div>
+
+</div>
+  </section>
+<section id="belanja" class="belanja">
+<div class="pembungkus-luar">
+
+  <div class="items">
+    <img src="yss.png" width="80" alt="yishunsin">
+    <div class="nama">yishunsin</div>
+    <div class="harga">HARGA: 20 JT</div>
+  </div>
+
+  <div class="items1">
+    <img src="kulkas.jpeg" width="80" alt="kulkas">
+    <div class="nama1">KULKAS POLTRON PRM21</div>
+    <div class="harga1">HARGA: 2,5JT</div>
+  </div>
+
+<div class="comingsoon">
+  <h1>COMMING SOON</h1>
+  <p>Ini masih simulasi belum bisa publish</p>
+</div>
+
+</section>
+
+<section id="contact2" class="contact2">
+  <div class="image2">
+    <img src="tt.png" width=" 25%" alt="">
+    <a href="https://www.tiktok.com/@roorrzz?_r=1&_t=ZS-97aTaSlNcLY">:MY TIKTOK 👈</a>
+</div>
+</section>
+
+
+
+
+</body>
+</html>
